@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: sms
+  profiles:
+    active: dev
+
+server:
+  port: 8080
+
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: tb_   # 表明前缀
+  type-aliases-package: com.code.duck.entity  # 实体类所在包
+  mapper-locations: classpath*:/mapper/**Mapper.xml   # xml文件所在位置

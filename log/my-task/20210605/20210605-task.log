@@ -1,0 +1,245 @@
+2021-06-05 14:57:09.001 [background-preinit] INFO  org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 6.1.7.Final
+2021-06-05 14:57:09.004 [restartedMain] INFO  cn.wq.sms.SmsApplication: Starting SmsApplication using Java 1.8.0_181 on DESKTOP-3IT52VU with PID 14680 (D:\code\svc\sms\target\classes started by 邓卫平 in D:\code\svc\sms)
+2021-06-05 14:57:09.005 [restartedMain] INFO  cn.wq.sms.SmsApplication: The following profiles are active: dev
+2021-06-05 14:57:09.035 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-05 14:57:09.036 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-05 14:57:09.505 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner: No MyBatis mapper was found in '[cn.wq.sms]' package. Please check your configuration.
+2021-06-05 14:57:09.803 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2021-06-05 14:57:09.809 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-05 14:57:09.809 [restartedMain] INFO  org.apache.catalina.core.StandardService: Starting service [Tomcat]
+2021-06-05 14:57:09.809 [restartedMain] INFO  org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-06-05 14:57:09.868 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+2021-06-05 14:57:09.868 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 832 ms
+2021-06-05 14:57:09.995 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor: Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-05 14:57:10.602 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2021-06-05 14:57:10.613 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8080"]
+2021-06-05 14:57:10.626 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-05 14:57:10.634 [restartedMain] INFO  cn.wq.sms.SmsApplication: Started SmsApplication in 1.962 seconds (JVM running for 3.456)
+2021-06-05 14:57:48.464 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor: Shutting down ExecutorService 'applicationTaskExecutor'
+[31m2021-06-05 14:57:51[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mStarting SmsApplication using Java 1.8.0_181 on DESKTOP-3IT52VU with PID 632 (D:\code\svc\sms\target\classes started by 邓卫平 in D:\code\svc\sms)
+[0;39m[31m2021-06-05 14:57:51[0;39m [34mINFO [0;39m [31m[background-preinit][0;39m [1;35morg.hibernate.validator.internal.util.Version[0;39m [36mHV000001: Hibernate Validator 6.1.7.Final
+[0;39m[31m2021-06-05 14:57:51[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mThe following profiles are active: dev
+[0;39m[31m2021-06-05 14:57:51[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.env.DevToolsPropertyDefaultsPostProcessor[0;39m [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[0;39m[31m2021-06-05 14:57:51[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.env.DevToolsPropertyDefaultsPostProcessor[0;39m [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[0;39m[31m2021-06-05 14:57:52[0;39m [31mWARN [0;39m [31m[restartedMain][0;39m [1;35morg.mybatis.spring.mapper.ClassPathMapperScanner[0;39m [36mNo MyBatis mapper was found in '[cn.wq.sms]' package. Please check your configuration.
+[0;39m[31m2021-06-05 14:57:52[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m [36mTomcat initialized with port(s): 8080 (http)
+[0;39m[31m2021-06-05 14:57:52[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.coyote.http11.Http11NioProtocol[0;39m [36mInitializing ProtocolHandler ["http-nio-8080"]
+[0;39m[31m2021-06-05 14:57:52[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.catalina.core.StandardService[0;39m [36mStarting service [Tomcat]
+[0;39m[31m2021-06-05 14:57:52[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.catalina.core.StandardEngine[0;39m [36mStarting Servlet engine: [Apache Tomcat/9.0.45]
+[0;39m[31m2021-06-05 14:57:52[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.a.c.core.ContainerBase.[Tomcat].[localhost].[/][0;39m [36mInitializing Spring embedded WebApplicationContext
+[0;39m[31m2021-06-05 14:57:52[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m [36mRoot WebApplicationContext: initialization completed in 924 ms
+[0;39m[31m2021-06-05 14:57:52[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m [36mInitializing ExecutorService 'applicationTaskExecutor'
+[0;39m[31m2021-06-05 14:57:53[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.autoconfigure.OptionalLiveReloadServer[0;39m [36mLiveReload server is running on port 35729
+[0;39m[31m2021-06-05 14:57:53[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.coyote.http11.Http11NioProtocol[0;39m [36mStarting ProtocolHandler ["http-nio-8080"]
+[0;39m[31m2021-06-05 14:57:53[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m [36mTomcat started on port(s): 8080 (http) with context path ''
+[0;39m[31m2021-06-05 14:57:53[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mStarted SmsApplication in 2.147 seconds (JVM running for 2.989)
+[0;39m[31m2021-06-05 14:58:08[0;39m [34mINFO [0;39m [31m[SpringContextShutdownHook][0;39m [1;35mo.s.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m [36mShutting down ExecutorService 'applicationTaskExecutor'
+[0;39m[37m2021-06-05 14:58:10[0;39m [34mINFO [0;39m [31m[background-preinit][0;39m [1;35morg.hibernate.validator.internal.util.Version[0;39m [36mHV000001: Hibernate Validator 6.1.7.Final
+[0;39m[37m2021-06-05 14:58:10[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mStarting SmsApplication using Java 1.8.0_181 on DESKTOP-3IT52VU with PID 12964 (D:\code\svc\sms\target\classes started by 邓卫平 in D:\code\svc\sms)
+[0;39m[37m2021-06-05 14:58:10[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mThe following profiles are active: dev
+[0;39m[37m2021-06-05 14:58:10[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.env.DevToolsPropertyDefaultsPostProcessor[0;39m [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[0;39m[37m2021-06-05 14:58:10[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.env.DevToolsPropertyDefaultsPostProcessor[0;39m [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[0;39m[37m2021-06-05 14:58:11[0;39m [31mWARN [0;39m [31m[restartedMain][0;39m [1;35morg.mybatis.spring.mapper.ClassPathMapperScanner[0;39m [36mNo MyBatis mapper was found in '[cn.wq.sms]' package. Please check your configuration.
+[0;39m[37m2021-06-05 14:58:11[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m [36mTomcat initialized with port(s): 8080 (http)
+[0;39m[37m2021-06-05 14:58:11[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.coyote.http11.Http11NioProtocol[0;39m [36mInitializing ProtocolHandler ["http-nio-8080"]
+[0;39m[37m2021-06-05 14:58:11[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.catalina.core.StandardService[0;39m [36mStarting service [Tomcat]
+[0;39m[37m2021-06-05 14:58:11[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.catalina.core.StandardEngine[0;39m [36mStarting Servlet engine: [Apache Tomcat/9.0.45]
+[0;39m[37m2021-06-05 14:58:11[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.a.c.core.ContainerBase.[Tomcat].[localhost].[/][0;39m [36mInitializing Spring embedded WebApplicationContext
+[0;39m[37m2021-06-05 14:58:11[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m [36mRoot WebApplicationContext: initialization completed in 886 ms
+[0;39m[37m2021-06-05 14:58:11[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m [36mInitializing ExecutorService 'applicationTaskExecutor'
+[0;39m[37m2021-06-05 14:58:12[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.autoconfigure.OptionalLiveReloadServer[0;39m [36mLiveReload server is running on port 35729
+[0;39m[37m2021-06-05 14:58:12[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.coyote.http11.Http11NioProtocol[0;39m [36mStarting ProtocolHandler ["http-nio-8080"]
+[0;39m[37m2021-06-05 14:58:12[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m [36mTomcat started on port(s): 8080 (http) with context path ''
+[0;39m[37m2021-06-05 14:58:12[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mStarted SmsApplication in 2.07 seconds (JVM running for 2.896)
+[0;39m[37m2021-06-05 15:06:53[0;39m [34mINFO [0;39m [31m[SpringContextShutdownHook][0;39m [1;35mo.s.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m [36mShutting down ExecutorService 'applicationTaskExecutor'
+[0;39m[37m2021-06-05 15:06:58[0;39m [34mINFO [0;39m [31m[background-preinit][0;39m [1;35morg.hibernate.validator.internal.util.Version[0;39m [36mHV000001: Hibernate Validator 6.1.7.Final
+[0;39m[37m2021-06-05 15:06:58[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mStarting SmsApplication using Java 1.8.0_181 on DESKTOP-3IT52VU with PID 14600 (D:\code\svc\sms\target\classes started by 邓卫平 in D:\code\svc\sms)
+[0;39m[37m2021-06-05 15:06:58[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mThe following profiles are active: dev
+[0;39m[37m2021-06-05 15:06:58[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.env.DevToolsPropertyDefaultsPostProcessor[0;39m [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[0;39m[37m2021-06-05 15:06:58[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.env.DevToolsPropertyDefaultsPostProcessor[0;39m [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[0;39m[37m2021-06-05 15:06:58[0;39m [31mWARN [0;39m [31m[restartedMain][0;39m [1;35morg.mybatis.spring.mapper.ClassPathMapperScanner[0;39m [36mNo MyBatis mapper was found in '[cn.wq.sms]' package. Please check your configuration.
+[0;39m[37m2021-06-05 15:06:59[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m [36mTomcat initialized with port(s): 8080 (http)
+[0;39m[37m2021-06-05 15:06:59[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.coyote.http11.Http11NioProtocol[0;39m [36mInitializing ProtocolHandler ["http-nio-8080"]
+[0;39m[37m2021-06-05 15:06:59[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.catalina.core.StandardService[0;39m [36mStarting service [Tomcat]
+[0;39m[37m2021-06-05 15:06:59[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.catalina.core.StandardEngine[0;39m [36mStarting Servlet engine: [Apache Tomcat/9.0.45]
+[0;39m[37m2021-06-05 15:06:59[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.a.c.core.ContainerBase.[Tomcat].[localhost].[/][0;39m [36mInitializing Spring embedded WebApplicationContext
+[0;39m[37m2021-06-05 15:06:59[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m [36mRoot WebApplicationContext: initialization completed in 837 ms
+[0;39m[37m2021-06-05 15:06:59[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m [36mInitializing ExecutorService 'applicationTaskExecutor'
+[0;39m[37m2021-06-05 15:06:59[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.autoconfigure.OptionalLiveReloadServer[0;39m [36mLiveReload server is running on port 35729
+[0;39m[37m2021-06-05 15:06:59[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.coyote.http11.Http11NioProtocol[0;39m [36mStarting ProtocolHandler ["http-nio-8080"]
+[0;39m[37m2021-06-05 15:06:59[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m [36mTomcat started on port(s): 8080 (http) with context path ''
+[0;39m[37m2021-06-05 15:06:59[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mStarted SmsApplication in 2.041 seconds (JVM running for 2.847)
+[0;39m[37m2021-06-05 15:10:41[0;39m [34mINFO [0;39m [31m[SpringContextShutdownHook][0;39m [1;35mo.s.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m [36mShutting down ExecutorService 'applicationTaskExecutor'
+[0;39m[37m2021-06-05 15:10:43[0;39m [34mINFO [0;39m [31m[background-preinit][0;39m [1;35morg.hibernate.validator.internal.util.Version[0;39m [36mHV000001: Hibernate Validator 6.1.7.Final
+[0;39m[37m2021-06-05 15:10:43[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mStarting SmsApplication using Java 1.8.0_181 on DESKTOP-3IT52VU with PID 10288 (D:\code\svc\sms\target\classes started by 邓卫平 in D:\code\svc\sms)
+[0;39m[37m2021-06-05 15:10:43[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mThe following profiles are active: dev
+[0;39m[37m2021-06-05 15:10:44[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.env.DevToolsPropertyDefaultsPostProcessor[0;39m [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[0;39m[37m2021-06-05 15:10:44[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.env.DevToolsPropertyDefaultsPostProcessor[0;39m [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[0;39m[37m2021-06-05 15:10:44[0;39m [31mWARN [0;39m [31m[restartedMain][0;39m [1;35morg.mybatis.spring.mapper.ClassPathMapperScanner[0;39m [36mNo MyBatis mapper was found in '[cn.wq.sms]' package. Please check your configuration.
+[0;39m[37m2021-06-05 15:10:44[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m [36mTomcat initialized with port(s): 8080 (http)
+[0;39m[37m2021-06-05 15:10:44[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.coyote.http11.Http11NioProtocol[0;39m [36mInitializing ProtocolHandler ["http-nio-8080"]
+[0;39m[37m2021-06-05 15:10:44[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.catalina.core.StandardService[0;39m [36mStarting service [Tomcat]
+[0;39m[37m2021-06-05 15:10:44[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.catalina.core.StandardEngine[0;39m [36mStarting Servlet engine: [Apache Tomcat/9.0.45]
+[0;39m[37m2021-06-05 15:10:44[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.a.c.core.ContainerBase.[Tomcat].[localhost].[/][0;39m [36mInitializing Spring embedded WebApplicationContext
+[0;39m[37m2021-06-05 15:10:44[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m [36mRoot WebApplicationContext: initialization completed in 921 ms
+[0;39m[37m2021-06-05 15:10:45[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m [36mInitializing ExecutorService 'applicationTaskExecutor'
+[0;39m[37m2021-06-05 15:10:45[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.autoconfigure.OptionalLiveReloadServer[0;39m [36mLiveReload server is running on port 35729
+[0;39m[37m2021-06-05 15:10:45[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.coyote.http11.Http11NioProtocol[0;39m [36mStarting ProtocolHandler ["http-nio-8080"]
+[0;39m[37m2021-06-05 15:10:45[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m [36mTomcat started on port(s): 8080 (http) with context path ''
+[0;39m[37m2021-06-05 15:10:45[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mStarted SmsApplication in 2.164 seconds (JVM running for 2.9)
+[0;39m[37m2021-06-05 15:11:31[0;39m [34mINFO [0;39m [31m[SpringContextShutdownHook][0;39m [1;35mo.s.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m [36mShutting down ExecutorService 'applicationTaskExecutor'
+[0;39m[37m2021-06-05 15:11:34[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mStarting SmsApplication using Java 1.8.0_181 on DESKTOP-3IT52VU with PID 5992 (D:\code\svc\sms\target\classes started by 邓卫平 in D:\code\svc\sms)
+[0;39m[37m2021-06-05 15:11:34[0;39m [34mINFO [0;39m [31m[background-preinit][0;39m [1;35morg.hibernate.validator.internal.util.Version[0;39m [36mHV000001: Hibernate Validator 6.1.7.Final
+[0;39m[37m2021-06-05 15:11:34[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mThe following profiles are active: dev
+[0;39m[37m2021-06-05 15:11:34[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.env.DevToolsPropertyDefaultsPostProcessor[0;39m [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[0;39m[37m2021-06-05 15:11:34[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.env.DevToolsPropertyDefaultsPostProcessor[0;39m [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[0;39m[37m2021-06-05 15:11:34[0;39m [31mWARN [0;39m [31m[restartedMain][0;39m [1;35morg.mybatis.spring.mapper.ClassPathMapperScanner[0;39m [36mNo MyBatis mapper was found in '[cn.wq.sms]' package. Please check your configuration.
+[0;39m[37m2021-06-05 15:11:35[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m [36mTomcat initialized with port(s): 8080 (http)
+[0;39m[37m2021-06-05 15:11:35[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.coyote.http11.Http11NioProtocol[0;39m [36mInitializing ProtocolHandler ["http-nio-8080"]
+[0;39m[37m2021-06-05 15:11:35[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.catalina.core.StandardService[0;39m [36mStarting service [Tomcat]
+[0;39m[37m2021-06-05 15:11:35[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.catalina.core.StandardEngine[0;39m [36mStarting Servlet engine: [Apache Tomcat/9.0.45]
+[0;39m[37m2021-06-05 15:11:35[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.a.c.core.ContainerBase.[Tomcat].[localhost].[/][0;39m [36mInitializing Spring embedded WebApplicationContext
+[0;39m[37m2021-06-05 15:11:35[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m [36mRoot WebApplicationContext: initialization completed in 900 ms
+[0;39m[37m2021-06-05 15:11:35[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m [36mInitializing ExecutorService 'applicationTaskExecutor'
+[0;39m[37m2021-06-05 15:11:35[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.autoconfigure.OptionalLiveReloadServer[0;39m [36mLiveReload server is running on port 35729
+[0;39m[37m2021-06-05 15:11:35[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.coyote.http11.Http11NioProtocol[0;39m [36mStarting ProtocolHandler ["http-nio-8080"]
+[0;39m[37m2021-06-05 15:11:35[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m [36mTomcat started on port(s): 8080 (http) with context path ''
+[0;39m[37m2021-06-05 15:11:35[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mStarted SmsApplication in 2.096 seconds (JVM running for 2.815)
+[0;39m[37m2021-06-05 15:12:14[0;39m [34mINFO [0;39m [31m[SpringContextShutdownHook][0;39m [1;35mo.s.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m [36mShutting down ExecutorService 'applicationTaskExecutor'
+[0;39m[37m2021-06-05 15:12:17[0;39m [34mINFO [0;39m [31m[background-preinit][0;39m [1;35morg.hibernate.validator.internal.util.Version[0;39m [36mHV000001: Hibernate Validator 6.1.7.Final
+[0;39m[37m2021-06-05 15:12:17[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mStarting SmsApplication using Java 1.8.0_181 on DESKTOP-3IT52VU with PID 13772 (D:\code\svc\sms\target\classes started by 邓卫平 in D:\code\svc\sms)
+[0;39m[37m2021-06-05 15:12:17[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mThe following profiles are active: dev
+[0;39m[37m2021-06-05 15:12:17[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.env.DevToolsPropertyDefaultsPostProcessor[0;39m [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[0;39m[37m2021-06-05 15:12:17[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.env.DevToolsPropertyDefaultsPostProcessor[0;39m [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[0;39m[37m2021-06-05 15:12:18[0;39m [31mWARN [0;39m [31m[restartedMain][0;39m [1;35morg.mybatis.spring.mapper.ClassPathMapperScanner[0;39m [36mNo MyBatis mapper was found in '[cn.wq.sms]' package. Please check your configuration.
+[0;39m[37m2021-06-05 15:12:18[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m [36mTomcat initialized with port(s): 8080 (http)
+[0;39m[37m2021-06-05 15:12:18[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.coyote.http11.Http11NioProtocol[0;39m [36mInitializing ProtocolHandler ["http-nio-8080"]
+[0;39m[37m2021-06-05 15:12:18[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.catalina.core.StandardService[0;39m [36mStarting service [Tomcat]
+[0;39m[37m2021-06-05 15:12:18[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.catalina.core.StandardEngine[0;39m [36mStarting Servlet engine: [Apache Tomcat/9.0.45]
+[0;39m[37m2021-06-05 15:12:18[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.a.c.core.ContainerBase.[Tomcat].[localhost].[/][0;39m [36mInitializing Spring embedded WebApplicationContext
+[0;39m[37m2021-06-05 15:12:18[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m [36mRoot WebApplicationContext: initialization completed in 923 ms
+[0;39m[37m2021-06-05 15:12:18[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m [36mInitializing ExecutorService 'applicationTaskExecutor'
+[0;39m[37m2021-06-05 15:12:19[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.autoconfigure.OptionalLiveReloadServer[0;39m [36mLiveReload server is running on port 35729
+[0;39m[37m2021-06-05 15:12:19[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.coyote.http11.Http11NioProtocol[0;39m [36mStarting ProtocolHandler ["http-nio-8080"]
+[0;39m[37m2021-06-05 15:12:19[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m [36mTomcat started on port(s): 8080 (http) with context path ''
+[0;39m[37m2021-06-05 15:12:19[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mStarted SmsApplication in 2.11 seconds (JVM running for 2.844)
+[0;39m[37m2021-06-05 15:12:53[0;39m [34mINFO [0;39m [31m[SpringContextShutdownHook][0;39m [1;35mo.s.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m [36mShutting down ExecutorService 'applicationTaskExecutor'
+[0;39m[37m2021-06-05 15:12:56[0;39m [34mINFO [0;39m [31m[background-preinit][0;39m [1;35morg.hibernate.validator.internal.util.Version[0;39m [36mHV000001: Hibernate Validator 6.1.7.Final
+[0;39m[37m2021-06-05 15:12:56[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mStarting SmsApplication using Java 1.8.0_181 on DESKTOP-3IT52VU with PID 13712 (D:\code\svc\sms\target\classes started by 邓卫平 in D:\code\svc\sms)
+[0;39m[37m2021-06-05 15:12:56[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mThe following profiles are active: dev
+[0;39m[37m2021-06-05 15:12:56[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.env.DevToolsPropertyDefaultsPostProcessor[0;39m [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[0;39m[37m2021-06-05 15:12:56[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.env.DevToolsPropertyDefaultsPostProcessor[0;39m [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[0;39m[37m2021-06-05 15:12:57[0;39m [31mWARN [0;39m [31m[restartedMain][0;39m [1;35morg.mybatis.spring.mapper.ClassPathMapperScanner[0;39m [36mNo MyBatis mapper was found in '[cn.wq.sms]' package. Please check your configuration.
+[0;39m[37m2021-06-05 15:12:57[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m [36mTomcat initialized with port(s): 8080 (http)
+[0;39m[37m2021-06-05 15:12:57[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.coyote.http11.Http11NioProtocol[0;39m [36mInitializing ProtocolHandler ["http-nio-8080"]
+[0;39m[37m2021-06-05 15:12:57[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.catalina.core.StandardService[0;39m [36mStarting service [Tomcat]
+[0;39m[37m2021-06-05 15:12:57[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.catalina.core.StandardEngine[0;39m [36mStarting Servlet engine: [Apache Tomcat/9.0.45]
+[0;39m[37m2021-06-05 15:12:57[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.a.c.core.ContainerBase.[Tomcat].[localhost].[/][0;39m [36mInitializing Spring embedded WebApplicationContext
+[0;39m[37m2021-06-05 15:12:57[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m [36mRoot WebApplicationContext: initialization completed in 898 ms
+[0;39m[37m2021-06-05 15:12:57[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m [36mInitializing ExecutorService 'applicationTaskExecutor'
+[0;39m[37m2021-06-05 15:12:58[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.autoconfigure.OptionalLiveReloadServer[0;39m [36mLiveReload server is running on port 35729
+[0;39m[37m2021-06-05 15:12:58[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.coyote.http11.Http11NioProtocol[0;39m [36mStarting ProtocolHandler ["http-nio-8080"]
+[0;39m[37m2021-06-05 15:12:58[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m [36mTomcat started on port(s): 8080 (http) with context path ''
+[0;39m[37m2021-06-05 15:12:58[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mStarted SmsApplication in 2.108 seconds (JVM running for 2.797)
+[0;39m[37m2021-06-05 15:13:50[0;39m [34mINFO [0;39m [31m[SpringContextShutdownHook][0;39m [1;35mo.s.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m [36mShutting down ExecutorService 'applicationTaskExecutor'
+[0;39m[37m2021-06-05 15:13:52[0;39m [34mINFO [0;39m [31m[background-preinit][0;39m [1;35morg.hibernate.validator.internal.util.Version[0;39m [36mHV000001: Hibernate Validator 6.1.7.Final
+[0;39m[37m2021-06-05 15:13:52[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mStarting SmsApplication using Java 1.8.0_181 on DESKTOP-3IT52VU with PID 11160 (D:\code\svc\sms\target\classes started by 邓卫平 in D:\code\svc\sms)
+[0;39m[37m2021-06-05 15:13:52[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mThe following profiles are active: dev
+[0;39m[37m2021-06-05 15:13:53[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.env.DevToolsPropertyDefaultsPostProcessor[0;39m [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[0;39m[37m2021-06-05 15:13:53[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.env.DevToolsPropertyDefaultsPostProcessor[0;39m [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[0;39m[37m2021-06-05 15:13:53[0;39m [31mWARN [0;39m [31m[restartedMain][0;39m [1;35morg.mybatis.spring.mapper.ClassPathMapperScanner[0;39m [36mNo MyBatis mapper was found in '[cn.wq.sms]' package. Please check your configuration.
+[0;39m[37m2021-06-05 15:13:53[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m [36mTomcat initialized with port(s): 8080 (http)
+[0;39m[37m2021-06-05 15:13:53[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.coyote.http11.Http11NioProtocol[0;39m [36mInitializing ProtocolHandler ["http-nio-8080"]
+[0;39m[37m2021-06-05 15:13:53[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.catalina.core.StandardService[0;39m [36mStarting service [Tomcat]
+[0;39m[37m2021-06-05 15:13:53[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.catalina.core.StandardEngine[0;39m [36mStarting Servlet engine: [Apache Tomcat/9.0.45]
+[0;39m[37m2021-06-05 15:13:53[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.a.c.core.ContainerBase.[Tomcat].[localhost].[/][0;39m [36mInitializing Spring embedded WebApplicationContext
+[0;39m[37m2021-06-05 15:13:53[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m [36mRoot WebApplicationContext: initialization completed in 963 ms
+[0;39m[37m2021-06-05 15:13:54[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m [36mInitializing ExecutorService 'applicationTaskExecutor'
+[0;39m[37m2021-06-05 15:13:54[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.autoconfigure.OptionalLiveReloadServer[0;39m [36mLiveReload server is running on port 35729
+[0;39m[37m2021-06-05 15:13:54[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.coyote.http11.Http11NioProtocol[0;39m [36mStarting ProtocolHandler ["http-nio-8080"]
+[0;39m[37m2021-06-05 15:13:54[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m [36mTomcat started on port(s): 8080 (http) with context path ''
+[0;39m[37m2021-06-05 15:13:54[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mStarted SmsApplication in 2.18 seconds (JVM running for 2.885)
+[0;39m[37m2021-06-05 15:29:34[0;39m [34mINFO [0;39m [31m[Thread-9][0;39m [1;35mo.s.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m [36mShutting down ExecutorService 'applicationTaskExecutor'
+[0;39m[37m2021-06-05 15:29:34[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mStarting SmsApplication using Java 1.8.0_181 on DESKTOP-3IT52VU with PID 11160 (D:\code\svc\sms\target\classes started by 邓卫平 in D:\code\svc\sms)
+[0;39m[37m2021-06-05 15:29:34[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mThe following profiles are active: dev
+[0;39m[37m2021-06-05 15:29:34[0;39m [31mWARN [0;39m [31m[restartedMain][0;39m [1;35morg.mybatis.spring.mapper.ClassPathMapperScanner[0;39m [36mNo MyBatis mapper was found in '[cn.wq.sms]' package. Please check your configuration.
+[0;39m[37m2021-06-05 15:29:34[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m [36mTomcat initialized with port(s): 8080 (http)
+[0;39m[37m2021-06-05 15:29:34[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.coyote.http11.Http11NioProtocol[0;39m [36mInitializing ProtocolHandler ["http-nio-8080"]
+[0;39m[37m2021-06-05 15:29:34[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.catalina.core.StandardService[0;39m [36mStarting service [Tomcat]
+[0;39m[37m2021-06-05 15:29:34[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.catalina.core.StandardEngine[0;39m [36mStarting Servlet engine: [Apache Tomcat/9.0.45]
+[0;39m[37m2021-06-05 15:29:34[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.a.c.core.ContainerBase.[Tomcat].[localhost].[/][0;39m [36mInitializing Spring embedded WebApplicationContext
+[0;39m[37m2021-06-05 15:29:34[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m [36mRoot WebApplicationContext: initialization completed in 227 ms
+[0;39m[37m2021-06-05 15:29:35[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m [36mInitializing ExecutorService 'applicationTaskExecutor'
+[0;39m[37m2021-06-05 15:29:35[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.autoconfigure.OptionalLiveReloadServer[0;39m [36mLiveReload server is running on port 35729
+[0;39m[37m2021-06-05 15:29:35[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.coyote.http11.Http11NioProtocol[0;39m [36mStarting ProtocolHandler ["http-nio-8080"]
+[0;39m[37m2021-06-05 15:29:35[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m [36mTomcat started on port(s): 8080 (http) with context path ''
+[0;39m[37m2021-06-05 15:29:35[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mStarted SmsApplication in 0.561 seconds (JVM running for 943.366)
+[0;39m[37m2021-06-05 15:29:35[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m [36mCondition evaluation unchanged
+[0;39m[37m2021-06-05 15:29:36[0;39m [34mINFO [0;39m [31m[Thread-16][0;39m [1;35mo.s.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m [36mShutting down ExecutorService 'applicationTaskExecutor'
+[0;39m[37m2021-06-05 15:29:37[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mStarting SmsApplication using Java 1.8.0_181 on DESKTOP-3IT52VU with PID 11160 (D:\code\svc\sms\target\classes started by 邓卫平 in D:\code\svc\sms)
+[0;39m[37m2021-06-05 15:29:37[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mThe following profiles are active: dev
+[0;39m[37m2021-06-05 15:29:37[0;39m [31mWARN [0;39m [31m[restartedMain][0;39m [1;35morg.mybatis.spring.mapper.ClassPathMapperScanner[0;39m [36mNo MyBatis mapper was found in '[com.wq.sms.mapper]' package. Please check your configuration.
+[0;39m[37m2021-06-05 15:29:37[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m [36mTomcat initialized with port(s): 8080 (http)
+[0;39m[37m2021-06-05 15:29:37[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.coyote.http11.Http11NioProtocol[0;39m [36mInitializing ProtocolHandler ["http-nio-8080"]
+[0;39m[37m2021-06-05 15:29:37[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.catalina.core.StandardService[0;39m [36mStarting service [Tomcat]
+[0;39m[37m2021-06-05 15:29:37[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.catalina.core.StandardEngine[0;39m [36mStarting Servlet engine: [Apache Tomcat/9.0.45]
+[0;39m[37m2021-06-05 15:29:37[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.a.c.core.ContainerBase.[Tomcat].[localhost].[/][0;39m [36mInitializing Spring embedded WebApplicationContext
+[0;39m[37m2021-06-05 15:29:37[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m [36mRoot WebApplicationContext: initialization completed in 169 ms
+[0;39m[37m2021-06-05 15:29:37[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m [36mInitializing ExecutorService 'applicationTaskExecutor'
+[0;39m[37m2021-06-05 15:29:37[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.autoconfigure.OptionalLiveReloadServer[0;39m [36mLiveReload server is running on port 35729
+[0;39m[37m2021-06-05 15:29:37[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.coyote.http11.Http11NioProtocol[0;39m [36mStarting ProtocolHandler ["http-nio-8080"]
+[0;39m[37m2021-06-05 15:29:37[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m [36mTomcat started on port(s): 8080 (http) with context path ''
+[0;39m[37m2021-06-05 15:29:37[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mStarted SmsApplication in 0.477 seconds (JVM running for 945.62)
+[0;39m[37m2021-06-05 15:29:37[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m [36mCondition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   MybatisPlusAutoConfiguration.MapperScannerRegistrarNotFoundConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.mybatis.spring.mapper.MapperFactoryBean,org.mybatis.spring.mapper.MapperScannerConfigurer; SearchStrategy: all) found beans of type 'org.mybatis.spring.mapper.MapperScannerConfigurer' cn.wq.sms.SmsApplication#MapperScannerRegistrar#0 (OnBeanCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+[0;39m[37m2021-06-05 15:39:40[0;39m [34mINFO [0;39m [31m[Thread-21][0;39m [1;35mo.s.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m [36mShutting down ExecutorService 'applicationTaskExecutor'
+[0;39m[37m2021-06-05 15:39:40[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mStarting SmsApplication using Java 1.8.0_181 on DESKTOP-3IT52VU with PID 11160 (D:\code\svc\sms\target\classes started by 邓卫平 in D:\code\svc\sms)
+[0;39m[37m2021-06-05 15:39:40[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mThe following profiles are active: dev
+[0;39m[37m2021-06-05 15:39:40[0;39m [31mWARN [0;39m [31m[restartedMain][0;39m [1;35morg.mybatis.spring.mapper.ClassPathMapperScanner[0;39m [36mNo MyBatis mapper was found in '[com.wq.sms.mapper]' package. Please check your configuration.
+[0;39m[37m2021-06-05 15:39:40[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m [36mTomcat initialized with port(s): 8080 (http)
+[0;39m[37m2021-06-05 15:39:40[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.coyote.http11.Http11NioProtocol[0;39m [36mInitializing ProtocolHandler ["http-nio-8080"]
+[0;39m[37m2021-06-05 15:39:40[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.catalina.core.StandardService[0;39m [36mStarting service [Tomcat]
+[0;39m[37m2021-06-05 15:39:40[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.catalina.core.StandardEngine[0;39m [36mStarting Servlet engine: [Apache Tomcat/9.0.45]
+[0;39m[37m2021-06-05 15:39:40[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.a.c.core.ContainerBase.[Tomcat].[localhost].[/][0;39m [36mInitializing Spring embedded WebApplicationContext
+[0;39m[37m2021-06-05 15:39:40[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m [36mRoot WebApplicationContext: initialization completed in 319 ms
+[0;39m[37m2021-06-05 15:39:40[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m [36mInitializing ExecutorService 'applicationTaskExecutor'
+[0;39m[37m2021-06-05 15:39:40[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.autoconfigure.OptionalLiveReloadServer[0;39m [36mLiveReload server is running on port 35729
+[0;39m[37m2021-06-05 15:39:40[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.coyote.http11.Http11NioProtocol[0;39m [36mStarting ProtocolHandler ["http-nio-8080"]
+[0;39m[37m2021-06-05 15:39:40[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m [36mTomcat started on port(s): 8080 (http) with context path ''
+[0;39m[37m2021-06-05 15:39:40[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcn.wq.sms.SmsApplication[0;39m [36mStarted SmsApplication in 0.729 seconds (JVM running for 1548.984)
+[0;39m[37m2021-06-05 15:39:40[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m [36mCondition evaluation unchanged
+[0;39m[37m2021-06-05 16:08:48[0;39m [34mINFO [0;39m [31m[SpringContextShutdownHook][0;39m [1;35mo.s.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m [36mShutting down ExecutorService 'applicationTaskExecutor'
+[0;39m
